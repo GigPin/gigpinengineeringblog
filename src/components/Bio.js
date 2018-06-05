@@ -1,20 +1,14 @@
-import React from 'react'
+import React from "react"
 
-import profilePic from './profile-pic.jpg'
+import profilePic from "./logo_gigpin.svg"
 
 class Bio extends React.Component {
   render() {
     return (
-      <p>
-        <img
-          src={profilePic}
-          alt={`Kyle Mathews`}
-        />
-        Written by <strong>Kyle Mathews</strong> who lives and works in San
-        Francisco building useful things.{' '}
-        <a href="https://twitter.com/kylemathews">
-          You should follow him on Twitter
-        </a>
+      <p className="bio">
+        <img src={profilePic} alt={`GigPin`} width="100" />
+        Written by <strong>GigPin Engineering team</strong> who lives and works
+        in San Francisco building useful things.{" "}
       </p>
     )
   }
