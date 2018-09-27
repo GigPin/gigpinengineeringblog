@@ -3,9 +3,6 @@ import Link from 'gatsby-link'
 
 import logo from './logo-blog.svg'
 
-require('prismjs/themes/prism-tomorrow.css')
-require('./layout.css')
-
 const Header = () => (
   <nav>
     <img src={logo} width={40} />

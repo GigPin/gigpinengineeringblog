@@ -3,6 +3,9 @@ import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 
+import './layout.css'
+require('prismjs/themes/prism-tomorrow.css')
+
 const __PATH_PREFIX__ = ''
 
 class Template extends React.Component {
