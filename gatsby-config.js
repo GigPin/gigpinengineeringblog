@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'GigPin Engineering',
-    author: 'GigPin'
+    author: 'GigPin',
+    description: 'Engineering topics from GigPin development team',
+    siteUrl: `https://engineering.gigpin.com`
   },
   plugins: [
     {
@@ -56,6 +58,9 @@ module.exports = {
         siteSpeedSampleRate: 10,
         cookieDomain: 'example.com'
       }
+    },
+    {
+      resolve: `gatsby-plugin-feed`
     }
   ]
 }
