@@ -29,7 +29,7 @@ class Template extends React.Component {
               color: 'inherit'
             }}
             to={'/'}>
-            Gatsby Starter Blog
+            GigPin Engineering Blog
           </Link>
         </h1>
       )
@@ -48,7 +48,7 @@ class Template extends React.Component {
               color: 'inherit'
             }}
             to={'/'}>
-            Gatsby Starter Blog
+            GigPin Engineering Blog
           </Link>
         </h3>
       )
